@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Lato&display=swap");
+
+body {
+  margin: 0;
+}
+
+.page_container {
+  font-family: "Heebo", sans-serif;
+}
+
+.banner_top {
+  background-color: rgb(57, 35, 21);
+  color: rgb(214, 163, 101);
+  padding: 1%;
+  position: relative;
+  width: 100%;
+}
+
+.navigation_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.accueil,
+.guit_elec,
+.guit_acc {
+  margin-right: 2%;
+}
+
+.content_container {
+  text-align: center;
+}
+
+.elecoustic_logo {
+  padding: 3%;
+  font-size: 3em;
+}
+
+.welcome {
+  width: 100%;
+  font-size: 3em;
+}
+
+.arrow {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 5em;
+  padding: 1%;
+}
+
+.selection {
+  padding: 1%;
+  background-color: rgb(214, 163, 101);
+  color: rgb(57, 35, 21);
+}
+
+.swiper-slide {
+  height: 60vh;
+  background-color: red;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}

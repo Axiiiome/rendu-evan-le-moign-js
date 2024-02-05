@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="banner_top">
+      <div class="navigation_container">
+        <div class="accueil">
+          <a href="accueil.html">Accueil</a>
+        </div>
+        <div class="guit_elec">
+          <a href="shop.html">Shop</a>
+        </div>
+        <div class="guit_acc">
+          <a href="form.html">Inscription</a>
+        </div>
+      </div>
+    </div>
+    <button id="theme">Dark mode</button>
+    <div class="message-error">
+      <h1>Une erreur est survenue lors de l'envoi du formulaire</h1>
+    </div>
+    <div class="message-success">
+      <h1>Votre formulaire a bien été envoyé</h1>
+    </div>
+    <form id="formulaire">
+      <div>
+        <label for="nom">Nom</label>
+        <input type="text" name="nom" id="nom" />
+        <div class="message-error" id="nom-error">Veuillez entrer un nom</div>
+      </div>
+      <div>
+        <label for="prenom">Prénom</label>
+        <input type="text" name="prenom" id="prenom" />
+        <div class="message-error" id="prenom-error">
+          Veuillez entrer un prénom
+        </div>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <div class="message-error" id="email-error">
+          Veuillez entrer un email
+        </div>
+      </div>
+
+      <div>
+        <label for="axe">Mon axe :</label>
+        <select name="axe" id="axe">
+          <option value="">Choisir ma guitare</option>
+          <option value="axe1">Electrique</option>
+          <option value="axe2">Accoustique</option>
+          <option value="axe3">Traditionelle</option>
+        </select>
+      </div>
+      <button type="submit">Envoyer</button>
+    </form>
+    <script src="form.js"></script>
+  </body>
+</html>

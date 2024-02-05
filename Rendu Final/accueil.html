@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Elecoustic - Accueil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="accueil.css" />
+    <script
+      src="https://kit.fontawesome.com/a5d976348f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div class="page_container">
+        <div class="banner_top">
+          <div class="navigation_container">
+            <button id="theme">Dark mode</button>
+            <div class="accueil">
+              <a href="accueil.html">Accueil</a>
+            </div>
+            <div class="guit_elec">
+              <a href="shop.html">Shop</a>
+            </div>
+            <div class="guit_acc">
+              <a href="form.html">Inscription</a>
+            </div>
+          </div>
+        </div>
+        <div class="content_container">
+          <div class="elecoustic_logo">
+            <img src="images/elecoustic_logo_big.png" />
+          </div>
+          <div class="welcome">
+            <h1>Bienvenue</h1>
+          </div>
+          <div class="arrow">
+            <i class="fas fa-arrow-down fa-bounce" style="color: #000000"></i>
+          </div>
+        </div>
+        <div class="selection">
+          <h1>Sélection du moment</h1>
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="images\guitare_1.jpg" />
+              </div>
+              <div class="swiper-slide"><img src="images\guitare_2.jpg" /></div>
+              <div class="swiper-slide"><img src="images\guitare_5.jpg" /></div>
+              ...
+            </div>
+          </div>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+          <script src="accueil.js"></script>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

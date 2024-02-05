@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="shop.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simple-lightbox.min.css"
+    />
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simple-lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js"></script>
+    <script src="shop.js"></script>
+    <main class="portfolio">
+      <div class="banner_top">
+        <div class="navigation_container">
+          <button id="theme">Dark mode</button>
+          <div class="accueil">
+            <a href="accueil.html">Accueil</a>
+          </div>
+          <div class="guit_elec">
+            <a href="shop.html">Shop</a>
+          </div>
+          <div class="guit_acc">
+            <a href="form.html">Inscription</a>
+          </div>
+        </div>
+      </div>
+      <div class="filters">
+        <ul>
+          <li data-filter="all" class="active">Toutes les guitares</li>
+          <li data-filter="electrique">Electriques</li>
+          <li data-filter="accoustique">Accoustiques</li>
+        </ul>
+      </div>
+      <div class="portfolio-elements">
+        <div class="card filtr-item" data-category="accoustique">
+          <div class="card-header">
+            <p class="card-title">Accoustique 1</p>
+          </div>
+          <a href="images/guitare_1.jpg">
+            <img src="images/guitare_1.jpg" alt="accoustique 1" />
+          </a>
+        </div>
+
+        <div class="card filtr-item" data-category="accoustique">
+          <div class="card-header">
+            <p class="card-title">Accoustique 2</p>
+          </div>
+          <a href="images/guitare_2.jpg">
+            <img src="images/guitare_2.jpg" alt="accoustique 2" />
+          </a>
+        </div>
+
+        <div class="card filtr-item" data-category="accoustique">
+          <div class="card-header">
+            <p class="card-title">Accoustique 3</p>
+          </div>
+          <a href="images/guitare_5.jpg">
+            <img src="images/guitare_5.jpg" alt="accoustique 3" />
+          </a>
+        </div>
+
+        <div class="card filtr-item" data-category="electrique">
+          <div class="card-header">
+            <p class="card-title">Electrique 1</p>
+          </div>
+          <a href="images/guitare_3.jpg">
+            <img src="images/guitare_3.jpg" alt="electrique 1" />
+          </a>
+        </div>
+
+        <div class="card filtr-item" data-category="electrique">
+          <div class="card-header">
+            <p class="card-title">Electrique 2</p>
+          </div>
+          <a href="images/guitare_4.jpg">
+            <img src="images/guitare_4.jpg" alt="electrique 2" />
+          </a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

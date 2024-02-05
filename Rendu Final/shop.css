@@ -1,0 +1,84 @@
+body.dark {
+  background-color: black !important;
+  color: white;
+}
+
+.banner_top {
+  background-color: rgb(57, 35, 21);
+  color: rgb(214, 163, 101);
+  padding: 1%;
+  position: relative;
+  width: 100%;
+}
+
+.navigation_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.portfolio {
+  padding: 80px 40px;
+  background-color: #f6f8fa;
+}
+
+.portfolio-elements {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card {
+  width: calc(50% - 25px);
+  background-color: #ffffff;
+}
+
+.card-header {
+  padding: 20px 40px;
+}
+
+.card-title {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: bold;
+  color: #222d3b;
+}
+
+.card-axe {
+  font-size: 14px;
+  color: #87878a;
+  margin-top: 6px;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.filters {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.filters ul {
+  display: flex;
+  gap: 20px;
+}
+
+.filters li {
+  color: #ffffff;
+  background-color: orangered;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.filters li.active {
+  background: orange;
+}
+
+.portfolio-elements {
+  padding: 50px 0 !important;
+}
